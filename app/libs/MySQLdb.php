@@ -29,8 +29,7 @@ class MySQLdb
             if (is_null(self::$instancia)){
                 self::$instancia = new MySQLdb();
             }
-            return self::$instancia;
-            
+            return self::$instanci
     }
     public function getDatabase(){
             return $this->db;
