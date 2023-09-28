@@ -30,6 +30,7 @@ class MySQLdb
                 self::$instancia = new MySQLdb();
             }
             return self::$instancia;
+            
     }
     public function getDatabase(){
             return $this->db;
